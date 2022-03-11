@@ -1,0 +1,102 @@
+[
+    {
+        "id":1,
+        "name":"Bread Shoes",
+        "price":"$5",
+        "featured":false,
+        "rating":1,
+        "created":"2-12-20",
+        "company":"French Exports.co",
+        "description":"Shoes made out of french bread. Very comfy inside with hard outside to protect your feet. Warning do not wear during a rainy day or if you walk through a park ful of birds"
+    },
+    {
+        "id":2,
+        "name":"GOAT Heels",
+        "price":"$45",
+        "featured":true,
+        "rating":4.5,
+        "created":"5-21-89",
+        "company":"GirlsBuyAnything",
+        "description":"Nothing more stylish then heels that look like goat legs. The process is simple as we they just glue hair to a wooden basis. Warning do be around anyone specifically alergic to mink."
+    },
+    {
+        "id":3,
+        "name":"Georgy Rain Boots",
+        "price":"$20",
+        "featured":true,
+        "rating":4,
+        "created":"11-18-90",
+        "company":"StevenKing",
+        "description":"In need of rain boots for when the weather gets wet but hate how boring they are, look no more.These rain boots have a creepy backstory as it used to be owned by a by who went missing. Warning if you see a clown following or stalking you, it's best to get your will in order."
+    },
+    {
+        "id":4,
+        "name":"Foot-Long shoes",
+        "price":"$15",
+        "featured":false,
+        "rating":3,
+        "created":"1-28-12",
+        "company":"Subway",
+        "description":"Brought to you by subway, The Foot-Long platform shoes will increase your height by a foot for as long as you wear them. These are not edible under any circumstance...Karen"
+    },
+    {
+        "id":5,
+        "name":"Banna-Split",
+        "price":"$10",
+        "featured":true,
+        "rating":5,
+        "created":"12-15-21",
+        "company":"DK.co",
+        "description":"Ever slipped and fell on a banna peel and get laughed at, well today's your luck because these shoes were designed for you to step on people and they slip and fall for you to laugh at. No more worrying about being laughed at, now you can be the laugher. Warning physics of how these work are unknown."
+    },
+    {
+        "id":6,
+        "name":"Sneakys",
+        "price":"$20",
+        "featured":false,
+        "rating":3.5,
+        "created":"2-16-03",
+        "company":"Venture Incorporated",
+        "description":"Sneakys not to be confused with sneakers are shoes made for all those sneaky people who don't want to be followed. The sole's on the shoes are rotatable creating the illusion that your footprints are backwords and casuing people to be unable to follow you with struggle.Sneakers please don't sue."
+    },
+    {
+        "id":7,
+        "name":"Abacus's",
+        "price":"$30",
+        "featured":false,
+        "rating":2.5,
+        "created":"2,400 B.C.",
+        "company":"Some guy",
+        "description":"Rumored to be one of the first heels this one was designed for men back in the day of philosophy. It features a abacus inbeded in the back ot the heel so you can calculate on the go. Make sure to bring foot smelling products as you have to take it off everytime you want to use it."
+    },
+    {
+        "id":8,
+        "name":"Black Clog's",
+        "price":"$27.99",
+        "featured":false,
+        "rating":1.5,
+        "created":"1346",
+        "company":"PlagueDoctorsWares",
+        "description":"Want to walk across the streets in london of good old year of 1346 without the worry of ratscoming up to you and nibble on you. Have no fear, other rats came to help so you can commandeer. Featuring rats that went through taxidermy and hollowed out so your feet can slide in. With this there is no need to worry about rats since you can now just blend in. Keep cheese on you just in case"
+    },
+    {
+        "id":9,
+        "name":"KeyBinds",
+        "price":"$40",
+        "featured":false,
+        "rating":2.7,
+        "created":"4-23-03",
+        "company":"ControllersandCo",
+        "description":"For your electronic services on the go this shoe features a keyboard under the foot, it has a extendable usb cord at the heel that has a length of 2 feet. Keys get worn out pretty fast. Turn off sticky keys if you don't wanna feel like you are walking in gum."
+    },
+    {
+        "id":10,
+        "name":"Abstract heels",
+        "price":"$1,000,000",
+        "featured":true,
+        "rating":0,
+        "created":"3-15-86",
+        "company":"Andy Warhol",
+        "description":"The only thing more abstract then these heels is you trying to walk in these heels. As like any other abstract art it's pricless although it's ugly. Try to find a reliable chiropractor."
+    }
+]
