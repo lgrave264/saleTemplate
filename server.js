@@ -8,9 +8,13 @@ app.use(express.static(__dirname + '/public'));
 
 // use res.render to load up an ejs view file
 
+const person = 'luca';
+
 // index page
 app.get('/', function(req, res) {
-    res.render('pages/index');
+    res.render('pages/index', {
+        person
+    });
 });
 
 // about page
