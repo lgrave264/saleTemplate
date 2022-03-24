@@ -1,86 +1,170 @@
 
 @use '../util/variables';
 
-#title{
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-weight: bold;
-    color: white;
-}
+@media only screen and (min-width: 501px) {
+    // desktop
+    
+    #title{
+        display: block;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-weight: bold;
+        color: white;
+    }
+    .links{
+        position: relative;
+        display: inline-block;
+        text-align: center;
+    }
+    .links a,
+    .links a:hover,
+    .links a:focus,
+    .links a:active {
+        color: #fff;
+        text-decoration: none;
+    }
+    .links a{
+        &::after{
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            height: 2px;
+            width: 100%;
+            transform-origin: left;
+            transform: scaleX(0);
+            background-color: red;
+            transition: transform 0.5s ease;
+        }
+        &:hover::after{
+            transition: 0.3s ease all;
+            transform: scaleX(1);
+        }
+    }
 
-#title2{
-    font-weight: bold;
-}
-.links{
-    position: relative;
-    display: inline-block;
-    text-align: center;
-}
-.links a,
-.links a:hover,
-.links a:focus,
-.links a:active {
-    color: #fff;
-    text-decoration: none;
-}
-.links a{
-    &::after{
-        content: "";
-        position: absolute;
-        bottom: 0;
+    .navbar{
+        display: flex;
+        justify-content: space-around;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        position: fixed;
+        top: 0;
         left: 0;
-        height: 2px;
         width: 100%;
-        transform-origin: left;
-        transform: scaleX(0);
-        background-color: red;
-        transition: transform 0.5s ease;
     }
-    &:hover::after{
-        transition: 0.3s ease all;
-        transform: scaleX(1);
+
+    .navbar li {
+        float: left;
     }
+
+    .navbar li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        padding-bottom: 0%;
+        text-decoration: none;
+    }
+
+    #menu{
+        transition: transform .7s ease-in-out;
+    }
+
+    #menu:hover {
+        transform: rotate(90deg);
+    }
+
+    .fill{
+        background-color: white;
+        height: 1rem;
+        width: 2rem;
+    }
+
 }
 
-.navbar{
-    display: flex;
-    justify-content: space-around;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-}
+@media only screen and (max-width: 500px) {
+    // Mobile
+    #title{
+        display: block;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-weight: bold;
+        color: white;
+    }
 
-.navbar li {
-    float: left;
-}
+    .links{
+        position: relative;
+        display: inline-block;
+        text-align: center;
+    }
+    .links a,
+    .links a:hover,
+    .links a:focus,
+    .links a:active {
+        color: #fff;
+        text-decoration: none;
+    }
+    .links a{
+        &::after{
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            height: 2px;
+            width: 100%;
+            transform-origin: left;
+            transform: scaleX(0);
+            background-color: red;
+            transition: transform 0.5s ease;
+        }
+        &:hover::after{
+            transition: 0.3s ease all;
+            transform: scaleX(1);
+        }
+    }
 
-.navbar li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    padding-bottom: 0%;
-    text-decoration: none;
-}
+    .navbar{
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
 
-#menu{
-    transition: transform .7s ease-in-out;
-}
+        // display: flex;
+        // justify-content: space-around;
+        // list-style-type: none;
+        // margin: 0;
+        // padding: 0;
+        // overflow: hidden;
+        // background-color: #333;
+        // position: fixed;
+        // top: 0;
+        // left: 0;
+        // width: 100%;
+    }
 
-#menu:hover {
-    transform: rotate(90deg);
-}
+    .navbar li {
+        float: left;
+    }
 
-.fill{
-    background-color: white;
-    height: 1rem;
-    width: 2rem;
+    .navbar li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        padding-bottom: 0%;
+        text-decoration: none;
+    }
+
+    .fill{
+        background-color: white;
+        height: 1rem;
+        width: 2rem;
+    }
 }
