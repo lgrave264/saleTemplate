@@ -295,15 +295,14 @@ h4 {
     text-align: center;
   }
 
-  .links a,
-.links a:hover,
-.links a:focus,
-.links a:active {
+  .links :hover,
+.links :focus,
+.links :active {
     color: #fff;
     text-decoration: none;
   }
 
-  .links a::after {
+  .links::after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -315,7 +314,7 @@ h4 {
     background-color: red;
     transition: transform 0.5s ease;
   }
-  .links a:hover::after {
+  .links:hover::after {
     transition: 0.3s ease all;
     transform: scaleX(1);
   }
@@ -332,27 +331,20 @@ h4 {
     top: 0;
     left: 0;
     width: 100%;
+    max-height: 3.5rem;
   }
 
-  .navbar li {
+  .navbar a {
     float: left;
   }
 
-  .navbar li a {
+  .navbar a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     padding-bottom: 0%;
     text-decoration: none;
-  }
-
-  #menu {
-    transition: transform 0.7s ease-in-out;
-  }
-
-  #menu:hover {
-    transform: rotate(90deg);
   }
 
   .fill {
@@ -375,17 +367,18 @@ h4 {
     position: relative;
     display: inline-block;
     text-align: center;
+    font-size: 0.6rem;
+    font-weight: bold;
   }
 
-  .links a,
-.links a:hover,
-.links a:focus,
-.links a:active {
+  .links :hover,
+.links :focus,
+.links :active {
     color: #fff;
     text-decoration: none;
   }
 
-  .links a::after {
+  .links::after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -397,7 +390,7 @@ h4 {
     background-color: red;
     transition: transform 0.5s ease;
   }
-  .links a:hover::after {
+  .links:hover::after {
     transition: 0.3s ease all;
     transform: scaleX(1);
   }
@@ -414,13 +407,14 @@ h4 {
     top: 0;
     left: 0;
     width: 100%;
+    max-height: 3.5rem;
   }
 
-  .navbar li {
+  .navbar a {
     float: left;
   }
 
-  .navbar li a {
+  .navbar a {
     display: block;
     color: white;
     text-align: center;
@@ -433,10 +427,6 @@ h4 {
     background-color: white;
     height: 1rem;
     width: 2rem;
-  }
-
-  .show {
-    display: block;
   }
 }
 .main {

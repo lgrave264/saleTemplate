@@ -16,14 +16,13 @@
         display: inline-block;
         text-align: center;
     }
-    .links a,
-    .links a:hover,
-    .links a:focus,
-    .links a:active {
+    .links :hover,
+    .links :focus,
+    .links :active {
         color: #fff;
         text-decoration: none;
     }
-    .links a{
+    .links {
         &::after{
             content: "";
             position: absolute;
@@ -54,13 +53,14 @@
         top: 0;
         left: 0;
         width: 100%;
+        max-height: 3.5rem;
     }
 
-    .navbar li {
+    .navbar a{
         float: left;
     }
 
-    .navbar li a {
+    .navbar a {
         display: block;
         color: white;
         text-align: center;
@@ -69,13 +69,13 @@
         text-decoration: none;
     }
 
-    #menu{
-        transition: transform .7s ease-in-out;
-    }
+    // #menu{
+    //     transition: transform .7s ease-in-out;
+    // }
 
-    #menu:hover {
-        transform: rotate(90deg);
-    }
+    // #menu:hover {
+    //     transform: rotate(90deg);
+    // }
 
     .fill{
         background-color: white;
@@ -95,20 +95,20 @@
         font-weight: bold;
         color: white;
     }
-
     .links{
         position: relative;
         display: inline-block;
         text-align: center;
+        font-size: 0.6rem;
+        font-weight: bold;
     }
-    .links a,
-    .links a:hover,
-    .links a:focus,
-    .links a:active {
+    .links :hover,
+    .links :focus,
+    .links :active {
         color: #fff;
         text-decoration: none;
     }
-    .links a{
+    .links {
         &::after{
             content: "";
             position: absolute;
@@ -139,13 +139,14 @@
         top: 0;
         left: 0;
         width: 100%;
+        max-height: 3.5rem;
     }
 
-    .navbar li {
+    .navbar a{
         float: left;
     }
 
-    .navbar li a {
+    .navbar a {
         display: block;
         color: white;
         text-align: center;
@@ -154,13 +155,17 @@
         text-decoration: none;
     }
 
+    // #menu{
+    //     transition: transform .7s ease-in-out;
+    // }
+
+    // #menu:hover {
+    //     transform: rotate(90deg);
+    // }
+
     .fill{
         background-color: white;
         height: 1rem;
         width: 2rem;
-    }
-
-    .show{
-        display: block;
     }
 }
